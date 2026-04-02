@@ -1,0 +1,40 @@
+Preguntas para reflexionar.
+
+10)
+    Pregunta: Para reflexionar. Además de la creación de la nueva clase ColeccionMultiple y la
+    adaptación del módulo main, responda ¿qué tuvo que modificar de lo realizado en los primeros
+    seis ejercicios?
+    
+    Respuesta: Nada más.
+    ¿Será esa la respuesta correcta? ¿Me las he arreglado de manera imprevista para resolver los ejercicios
+    ocho y nueve sin tener que modificar los incisos anteriores? ¿Acaso he resuelto mal los ejercicios? 
+    Me decanto por la primera alternativa. En tal caso, lo que busca la pregunta es hacernos notar la 
+    utilidad de las abstracciones dentro del paradigma POO, en específico la utilidad de las interfaces, 
+    (me refiero a la flexibilidad que estas herramientas brindan)
+    A pesar de haber implementado los "mismos" métodos en tres clases diferentes, la interfaz que he
+    utilizado es la misma, no he tenido que hacer cambios en ella, sobreescribir código o realizar
+    implementaciones mega complejas o rebuscadas... 
+    
+14)
+    Pregunta: Responda ¿Funcionó? ¿Fue necesario decir explícitamente que Alumno tiene que implementar 
+    la interface Comparable? ¿Cuál fue el criterio por el cual se comparó a los alumnos? ¿Por qué?
+    
+    Respuesta:
+    1. ¿Funciona? Sí, lo hace. Aunque de manera ineficiente, ya que en lugar de indicar, por ejemplo el nombre
+    del alumno, retorna "Practica1.Ejercicio12.Alumno".
+    2. ¿Fue necesario decir explícitamente que Alumno tiene que implementar la interface Comparable?
+    No fue necesario indicarlo de manera explícita. Debido a que la clase alumno desciende de la clase persona
+    y que la clase persona implementa la interfaz Comparable.
+    3. ¿Cuál fue el criterio por el cual se comparó a los alumnos? ¿Por qué?
+    El criterio por el que se comparó a los alumnos fue el mismo que para las personas: su DNI. Esto fue así
+    debido a que este es un identificador único que tanto las instancias de la clase Personas como de los de la 
+    clase Alumno poseen. No hay, a priori, una necesidad en cambiar esto. 
+    
+16)
+    Pregunta: Para reflexionar. ¿Podría haber hecho esto mismo sin interfaces? ¿A qué costo?
+    
+    Respuesta: Sí, claro que hubiera podido hacerlo. ¿Costo? Quizá:
+    => Implementaciones de funciones (métodos) más largas.
+    => Código con diferentes tipos de condiciones y bifurcaciones del programa para evaluar las distintas alternativas (tipos de entrada).
+    => Utilización de otras herramientas del paradigma, por ejemplo la sobrecarga de métodos.
+    => Mayor cantidad de repeticiones de código.

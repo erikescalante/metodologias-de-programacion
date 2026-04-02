@@ -1,0 +1,14 @@
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/Practica1.GeneratedMSBuildEditorConfig.editorconfig
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/Practica1.AssemblyInfoInputs.cache
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/Practica1.AssemblyInfo.cs
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/Practica1.csproj.CoreCompileInputs.cache
+/home/erik/metodologia-de-programacion/Practica1/Practica1/bin/Debug/net10.0/Practica1
+/home/erik/metodologia-de-programacion/Practica1/Practica1/bin/Debug/net10.0/Practica1.deps.json
+/home/erik/metodologia-de-programacion/Practica1/Practica1/bin/Debug/net10.0/Practica1.runtimeconfig.json
+/home/erik/metodologia-de-programacion/Practica1/Practica1/bin/Debug/net10.0/Practica1.dll
+/home/erik/metodologia-de-programacion/Practica1/Practica1/bin/Debug/net10.0/Practica1.pdb
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/Practica1.dll
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/refint/Practica1.dll
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/Practica1.pdb
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/Practica1.genruntimeconfig.cache
+/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/Debug/net10.0/ref/Practica1.dll
