@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/erik/metodologia-de-programacion/Practica2/Practica2/Practica2.csproj": {}
+    "/home/erik/metodologias-de-programacion/Practica2/Practica2/Practica2.csproj": {}
   },
   "projects": {
-    "/home/erik/metodologia-de-programacion/Practica2/Practica2/Practica2.csproj": {
+    "/home/erik/metodologias-de-programacion/Practica2/Practica2/Practica2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erik/metodologia-de-programacion/Practica2/Practica2/Practica2.csproj",
+        "projectUniqueName": "/home/erik/metodologias-de-programacion/Practica2/Practica2/Practica2.csproj",
         "projectName": "Practica2",
-        "projectPath": "/home/erik/metodologia-de-programacion/Practica2/Practica2/Practica2.csproj",
+        "projectPath": "/home/erik/metodologias-de-programacion/Practica2/Practica2/Practica2.csproj",
         "packagesPath": "/home/erik/.nuget/packages/",
-        "outputPath": "/home/erik/metodologia-de-programacion/Practica2/Practica2/obj/",
+        "outputPath": "/home/erik/metodologias-de-programacion/Practica2/Practica2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erik/.nuget/NuGet/NuGet.Config"
