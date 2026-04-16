@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
 using Practica2.Interfaces;
+using Practica2.IteradoresConcretos;
 
 namespace Practica2;
 
-public class Pila : Coleccionable
+public class Pila : Coleccionable, Iterable
 {
     //variables
     private readonly List<Comparable> _elementos;
@@ -18,22 +19,23 @@ public class Pila : Coleccionable
         _elementos = new List<Comparable>(capacidad);
     }
     
-    //properties
+    //methods
     public bool IsEmpty => (_elementos.Count == 0);
     
-    //methods
-    public Comparable? Top() => (this.IsEmpty ? _elementos[^1] : null);
+    public Comparable Top() => (this.IsEmpty) 
+        ? throw new NullReferenceException("Pila vacía")
+        :_elementos[^1] ;
     
-    public Comparable? Pop()
+    public Comparable Pop()
     {
-        if (_elementos.Count == 0) return null;
+        if (_elementos.Count == 0) throw new NullReferenceException("Pila vacía");
         
         var top = _elementos[^1];
         _elementos.RemoveAt(_elementos.Count - 1);
         return top;
     }
 
-    //methods from Comparable interface.
+    //methods by Comparable interface.
     public int Cuantos() => _elementos.Count;
 
     public Comparable Minimo()
@@ -67,4 +69,8 @@ public class Pila : Coleccionable
         
         return false;
     }
+    
+    //methods by Iterable interface
+    
+    public Iterador CrearIterador() => new IteradorDePila(this);
 }

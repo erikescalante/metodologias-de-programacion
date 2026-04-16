@@ -3,7 +3,7 @@ using System;
 namespace Practica2.Interfaces;
 
 // ReSharper disable once InconsistentNaming
-public interface Coleccionable
+public interface Coleccionable : Iterable
 {
     int Cuantos(); //Devuelve la cantidad de elementos comparables que tiene el coleccionable
     

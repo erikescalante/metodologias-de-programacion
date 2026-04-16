@@ -54,5 +54,5 @@ public sealed class Alumno : Persona
     public override bool SosMenor(Comparable elem) => (elem is Alumno a && _estrategiaComparacion.SosMenor(this, a));
 
     //ToString method
-    public override string ToString() => $"{Nombre} - Legajo: {_legajo} - Promedio: {_promedio}";
+    public override string ToString() => $"{Nombre} ({Dni}) - Legajo: {_legajo} - Promedio: {_promedio}";
 }

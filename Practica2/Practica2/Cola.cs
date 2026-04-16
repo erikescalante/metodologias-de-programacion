@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
 using Practica2.Interfaces;
+using Practica2.IteradoresConcretos;
 
 namespace Practica2;
 
-public class Cola : Coleccionable
+public class Cola : Coleccionable, Iterable
 {
     //variables
     private readonly LinkedList<Comparable> _elementos = [];
@@ -13,11 +14,13 @@ public class Cola : Coleccionable
     public bool IsEmpty => _elementos.Count == 0;
     
     //methods
-    public Comparable? Peek() => (this.IsEmpty ? null : _elementos.First());
+    public Comparable Peek() => (this.IsEmpty)
+        ? throw new NullReferenceException("Cola vacía")
+        : _elementos.First();
     
-    public Comparable? Dequeue()
+    public Comparable Dequeue()
     {
-        if (this.IsEmpty) return null;
+        if (this.IsEmpty) throw new NullReferenceException("Cola vacía");
         
         var top = _elementos.First();
         _elementos.RemoveFirst();
@@ -58,4 +61,8 @@ public class Cola : Coleccionable
         
         return false;
     }
+    
+    //method by Iterable interface
+    
+    public Iterador CrearIterador() => new IteradorDeCola(this);
 }

@@ -42,4 +42,5 @@ public class ColeccionMultiple(Pila pila, Cola cola) : Coleccionable
     }
 
     public bool Contiene(Comparable elem) => (pila.Contiene(elem) || cola.Contiene(elem));
+    public Iterador CrearIterador() => throw new NotImplementedException();
 }
