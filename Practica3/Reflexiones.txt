@@ -1,0 +1,51 @@
+Reflexiones de la práctica 03
+
+----------------------------------------------------------------------------------------------------
+Ejercicio 1
+
+Preguntas:
+Recordamos: ¿Cuál es la única diferencia entre los métodos llenar y llenarAlumnos
+implementados en la práctica 1? ¿Qué tuvo que hacer con el método informar a medida que
+ejecutaba los métodos main (ejercicios 9 y 14)?
+¿Qué sucedería con todos estos métodos si apareciera una nueva clase Profesor, la cual se
+desea comparar por antigüedad?
+
+Respuestas: 
+La única diferencia entre los métodos Llenar y LlenarAlumnos implementados en la práctica 
+es el tipo de dato con el que se llena el coleccionable recibido. En Llenar, se lo llena 
+con Numeros; en LlenarAlumnos, con alumnos.
+
+El método Informar tuvo que ser comentado/reescrito por partes o se le tuvo que agregar una 
+serie de bifurcaciones con IFs o SWITCHs a medida que se iba avanzando durante la práctica, 
+lo que era muy tedioso y poco escalable.
+
+Añadiría aún más complejidad a la función. Haciendola dificil de implementar y entender.
+---------------------------------------------------------------------------------------------------
+Ejercicio 7
+
+Pregunta:
+Para reflexionar. ¿Qué debería hacer si se quiere tener en el método main la opción de
+almacenar los comparables en una pila, en una cola, en una colección múltiple, en un conjunto
+o en un diccionario?
+
+Respuesta:
+Si se quiere obtener un coleccionable sin tener que instanciarlo previamente en la función Main,
+lo que se me ocurre es aplicar el patrón Factory Method nuevamente, pero esta vez con coleccionables.
+Entonces, se reescribe el método Llenar para que reciba dos parámetros: Un enum de comparables (numero,
+alumno, profesor, etc) y otro enum de coleccionables (pila, cola, lista, conjunto, etc). A partir de
+las opciones recibidas, se determina tanto los elementos a crear como la colección donde se almacenarán.
+Finalmente, se retornara la colección elegida llena de los comparables elegidos.
+----------------------------------------------------------------------------------------------------
+Ejercicio 10
+
+Preguntas:
+Para reflexionar. ¿Qué tienen en común las fábricas de la clase Profesor y de la clase Alumno?
+¿Podría ampliarse la jerarquía de clases de las fábricas? ¿Cómo?
+
+Respuestas:
+Las fábricas de Profesor y Alumno tienen en común la creación de los atributos que ambos comparten por
+ser subclases de Persona. Además de tener los mismos métodos, por supuesto.
+
+Creo que sí se podría ampliar la jerarquía de las clases de las fábrics concretas, utilizando override
+y la operación "this.NombreDeMétodo", pero no sé cómo implementarlo de manera precisa para que funcione
+ya que el método debe devolver un Comparable y la clase Persona es abstracta...

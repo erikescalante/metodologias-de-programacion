@@ -1,0 +1,15 @@
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/Practica3.GeneratedMSBuildEditorConfig.editorconfig
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/Practica3.AssemblyInfoInputs.cache
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/Practica3.AssemblyInfo.cs
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/Practica3.csproj.CoreCompileInputs.cache
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/Practica3.sourcelink.json
+/home/erik/metodologias-de-programacion/Practica3/Practica3/bin/Debug/net10.0/Practica3
+/home/erik/metodologias-de-programacion/Practica3/Practica3/bin/Debug/net10.0/Practica3.deps.json
+/home/erik/metodologias-de-programacion/Practica3/Practica3/bin/Debug/net10.0/Practica3.runtimeconfig.json
+/home/erik/metodologias-de-programacion/Practica3/Practica3/bin/Debug/net10.0/Practica3.dll
+/home/erik/metodologias-de-programacion/Practica3/Practica3/bin/Debug/net10.0/Practica3.pdb
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/Practica3.dll
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/refint/Practica3.dll
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/Practica3.pdb
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/Practica3.genruntimeconfig.cache
+/home/erik/metodologias-de-programacion/Practica3/Practica3/obj/Debug/net10.0/ref/Practica3.dll
