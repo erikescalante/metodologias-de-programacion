@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/erik/metodologia-de-programacion/Practica1/Practica1/Practica1.csproj": {}
+    "/home/erik/metodologias-de-programacion/Practica1/Practica1/Practica1.csproj": {}
   },
   "projects": {
-    "/home/erik/metodologia-de-programacion/Practica1/Practica1/Practica1.csproj": {
+    "/home/erik/metodologias-de-programacion/Practica1/Practica1/Practica1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/erik/metodologia-de-programacion/Practica1/Practica1/Practica1.csproj",
+        "projectUniqueName": "/home/erik/metodologias-de-programacion/Practica1/Practica1/Practica1.csproj",
         "projectName": "Practica1",
-        "projectPath": "/home/erik/metodologia-de-programacion/Practica1/Practica1/Practica1.csproj",
+        "projectPath": "/home/erik/metodologias-de-programacion/Practica1/Practica1/Practica1.csproj",
         "packagesPath": "/home/erik/.nuget/packages/",
-        "outputPath": "/home/erik/metodologia-de-programacion/Practica1/Practica1/obj/",
+        "outputPath": "/home/erik/metodologias-de-programacion/Practica1/Practica1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/erik/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

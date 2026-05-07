@@ -1,0 +1,15 @@
+/home/erik/metodologias-de-programacion/Practica5/Practica5/bin/Debug/net10.0/Practica5
+/home/erik/metodologias-de-programacion/Practica5/Practica5/bin/Debug/net10.0/Practica5.deps.json
+/home/erik/metodologias-de-programacion/Practica5/Practica5/bin/Debug/net10.0/Practica5.runtimeconfig.json
+/home/erik/metodologias-de-programacion/Practica5/Practica5/bin/Debug/net10.0/Practica5.dll
+/home/erik/metodologias-de-programacion/Practica5/Practica5/bin/Debug/net10.0/Practica5.pdb
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/Practica5.GeneratedMSBuildEditorConfig.editorconfig
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/Practica5.AssemblyInfoInputs.cache
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/Practica5.AssemblyInfo.cs
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/Practica5.csproj.CoreCompileInputs.cache
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/Practica5.sourcelink.json
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/Practica5.dll
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/refint/Practica5.dll
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/Practica5.pdb
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/Practica5.genruntimeconfig.cache
+/home/erik/metodologias-de-programacion/Practica5/Practica5/obj/Debug/net10.0/ref/Practica5.dll
